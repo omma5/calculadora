@@ -4,7 +4,7 @@ public class Calculadora {
 	//atributos
 	private double num1;
 	private double num2;
-	//constructor con parámetros
+	//constructor con parï¿½metros
 	public Calculadora(double num1, double num2) {
 		this.num1 = num1;
 		this.num2 = num2;
@@ -27,5 +27,8 @@ public class Calculadora {
 	@Override
 	public String toString() {
 		return "Calculadora [num1=" + num1 + ", num2=" + num2 + "]";
+	}
+	public double suma() {
+		return this.num1+this.num2;
 	}
 }
