@@ -31,4 +31,7 @@ public class Calculadora {
 	public double suma() {
 		return this.num1+this.num2;
 	}
+	public double resta() {
+		return this.num1-this.num2;
+	}
 }
