@@ -19,6 +19,10 @@ public class AppCalculadora {
 			opcion=sc.next().charAt(0);
 			if(opcion=='0') continuar=false;
 		}
+
 		System.out.println("Adios");
+
+		System.out.println("BNAT");
+
 	}
 }
