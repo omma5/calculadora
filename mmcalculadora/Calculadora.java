@@ -38,6 +38,8 @@ public class Calculadora {
 		return this.num1-this.num2;
 	}
 	public double division() {
-		return this.num1/this.num2;
+	//	if(this.num2==0)return 0.0;
+	//	return this.num1/this.num2;
+		return this.num2==0?0.0:this.num1/this.num2;
 	}
 }
